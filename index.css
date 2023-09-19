@@ -60,9 +60,14 @@ a {
   margin-inline: auto;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
   font-size: 15px;
   justify-content: space-between;
+}
+
+.menu li a:hover {
+  color: red;
+  cursor: pointer;
 }
 
 .navegacion {
